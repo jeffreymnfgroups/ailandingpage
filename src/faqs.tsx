@@ -98,7 +98,7 @@ const Faqs = () => {
         className="text-[18px] mt-5 md:mt-0 leading-[24.3px] tracking-[-0.54px] be-vietnam-pro-medium text-[#0f1728] bg-transparent rounded-full px-[24px] py-[24px] md:px-5 w-full text-center"
       >
         Need help planning your trip? Contact our
-        <span className="underline ml-1 cursor-pointer hover:text-[#475466]">
+        <span className="underline ml-1 cursor-pointer hover:text-[#475466]"> 
           travel support
         </span>
         .
@@ -123,7 +123,7 @@ const Faqs = () => {
         }}
         className="flex flex-col xl:flex-row items-center bg-[#bdff1c] w-full sm:w-[622px] h-[749px] rounded-[24px] overflow-hidden md:w-full xl:w-full xl:h-[480px]"
       >
-        <div className="flex flex-col gap-12 items-start w-full px-10 md:pl-16 pt-[60px] pb-[60px] border w-[285px]">
+        <div className="flex flex-col gap-12 items-start w-full px-10 md:pl-16 pt-[60px] pb-[60px] xl:w-1/2">
           <h1 className="poppins-medium text-[40px] leading-[44px] tracking-[-1px] text-[#0f1728] w-[80%] md:text-[52px] md:leading-[57.2px] md:w-[505px]">
             Start your next adventure with AI-powered planning.
           </h1>
@@ -148,14 +148,14 @@ const Faqs = () => {
               Download App
             </motion.button>
           </Link>
-          <p className="text-[#0f1728] text-center mt-4 be-vietnam-pro-regular text-[14px] leading-[20px]">
+          <p className="text-[#0f1728] text-left mt-4 be-vietnam-pro-regular text-[14px] leading-[20px] xl:w-[400px]">
             We currently cover 180+ countries with detailed local insights, booking partnerships, and cultural information. New destinations are added monthly.
           </p>
         </div>
         <img
           src="https://framerusercontent.com/images/xbGd7KjeOkQuVXYhzidyCZ0EUM.jpg?scale-down-to=2048"
           alt=""
-          className="rounded-b-[24px] h-[400px] object-cover w-full xl:h-full xl:w-[631px] md:rounded-b-[0px]"
+          className="rounded-b-[24px] h-[400px] object-cover w-full xl:h-full xl:w-1/2 xl:rounded-b-[0px] xl:rounded-r-[24px]"
         />
       </motion.div>
 
