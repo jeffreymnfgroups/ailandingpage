@@ -143,9 +143,14 @@ const Faqs = () => {
                   ease: [0.44, 0, 0, 1],
                 },
               }}
-            We currently cover 180+ countries with detailed local insights, booking partnerships, and cultural information. New destinations are added monthly.
-          </Link>
+              className="bg-[#0f1728] text-white px-8 py-4 rounded-full poppins-medium text-[16px] hover:bg-[#1a2332] transition-colors duration-300"
+            >
               Download App
+            </motion.button>
+          </Link>
+          <p className="text-[#0f1728] text-center mt-4 be-vietnam-pro-regular text-[14px] leading-[20px]">
+            We currently cover 180+ countries with detailed local insights, booking partnerships, and cultural information. New destinations are added monthly.
+          </p>
         <img
           src="https://framerusercontent.com/images/xbGd7KjeOkQuVXYhzidyCZ0EUM.jpg?scale-down-to=2048"
           alt=""
