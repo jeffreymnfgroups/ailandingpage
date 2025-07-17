@@ -271,7 +271,7 @@ const Product = () => {
         </motion.h2>
 
         <div className="w-full flex flex-col md:flex-col gap-5 items-center">
-          <div className="w-full flex flex-col md:flex-row gap-6 md:gap-10 xl:max-w-min">
+          <div className="w-full flex flex-col md:flex-row gap-6 md:gap-8 xl:max-w-none">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{
@@ -289,14 +289,16 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Voice trip planning
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   Plan your entire trip using natural voice commands and conversational AI assistance
                 </p>
               </div>
@@ -318,14 +320,16 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Travel companion matching
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   Connect with like-minded travelers and find perfect travel companions for your adventures
                 </p>
               </div>
@@ -347,21 +351,23 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Predictive travel insights
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   AI predicts crowd levels, weather patterns, and optimal travel times for better experiences
                 </p>
               </div>
             </motion.div>
           </div>
 
-          <div className="w-full md:flex flex-col md:flex-row gap-6 md:gap-10 hidden xl:max-w-min">
+          <div className="w-full md:flex flex-col md:flex-row gap-6 md:gap-8 hidden xl:max-w-none">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{
@@ -379,14 +385,16 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Smart packing assistant
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   AI-generated packing lists based on destination, weather, and planned activities
                 </p>
               </div>
@@ -408,14 +416,16 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Cultural insights engine
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   Learn local customs, etiquette, and cultural tips powered by AI and local knowledge
                 </p>
               </div>
@@ -437,14 +447,16 @@ const Product = () => {
                 amount: "some",
                 once: true,
               }}
-              className="flex flex-col xl:flex-row gap-4 items-center md:items-start w-full md:w-[376px] md:py-6 md:pl-8 rounded-[24px]"
+              className="bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 rounded-[24px] p-8 flex flex-col items-center md:items-start gap-6 w-full md:w-[376px] group"
             >
-              <img src={fingerprintTwo} alt="" className="w-[96px]" />
-              <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
-                <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#854dfc] to-[#9D71FD] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src={fingerprintTwo} alt="" className="w-8 h-8 filter brightness-0 invert" />
+              </div>
+              <div className="w-full flex flex-col items-center md:items-start gap-3">
+                <h3 className="font-medium text-[22px] leading-[26.4px] tracking-[-0.5px] text-[#0f1728] text-center md:text-left">
                   Emergency travel support
                 </h3>
-                <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
+                <p className="font-normal leading-[22px] text-[16px] tracking-[-0.32px] text-[#475466] text-center md:text-left">
                   24/7 AI-powered assistance for travel emergencies, rebooking, and real-time support
                 </p>
               </div>
