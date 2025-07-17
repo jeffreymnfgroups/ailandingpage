@@ -154,6 +154,7 @@ const Faqs = () => {
       </motion.div>
 
       <img src={ogImg} alt="" className="w-full opacity-0 absolute bottom-0 -z-10" />    </section>
+  )
   );
 };
 
