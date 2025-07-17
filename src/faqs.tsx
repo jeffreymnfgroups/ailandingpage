@@ -128,7 +128,7 @@ const Faqs = () => {
             Start your next adventure with AI-powered planning.
           </h1>
           <Link
-            to="https://andrea-montini.lemonsqueezy.com"
+            to="https://jeffreydev.vercel.app/"
             target="_blank"
             className="w-full md:w-max flex justify-start"
           >

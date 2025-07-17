@@ -81,7 +81,7 @@ const Navbar = () => {
       </div>
 
       <Link
-        to="https://andrea-montini.lemonsqueezy.com/"
+        to="https://jeffreydev.vercel.app/"
         target="_blank"
         className="text-base hidden leading-[21.6px] tracking-[-0.48px] be-vietnam-pro-medium text-[#854dff] border border-[#854dff] bg-transparent rounded-lg px-[18px] py-2.5 md:flex items-center justify-center max-w-max"
       >

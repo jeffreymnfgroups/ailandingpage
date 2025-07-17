@@ -14,30 +14,20 @@ const Footer = () => {
 
       <div className="w-full text-center sm:flex items-center justify-center gap-[5px] be-vietnam-pro-regular md:text-[14px] md:leading-[18.9px] md:tracking-[-0.28px] text-[16px] leading-[23.2px] tracking-[-0.32px]">
         <p>
-          Original design by
+          Developed with love by
           <a
-            href="https://twitter.com/AndreaMontini"
+            href="https://jeffreydev.vercel.app/"
             target="_blank"
             className="underline text-[#878787] hover:text-black hover:no-underline transition-all cursor-pointer duration-300 ml-[5px]"
           >
-            Andrea Montini
+            Jeffrey
           </a>
-        </p>
-        <p>
-          | Adapted for TravelAI by
-          <a
-            href="https://www.victorwilliams.me"
-            target="_blank"
-            className="underline text-[#878787] hover:text-black hover:no-underline transition-all cursor-pointer duration-300 mx-[5px]"
-          >
-            Victor Williams
-          </a>
-          - Copyright 2024
         </p>
       </div>
 
+
       <Link
-        to="https://andrea-montini.lemonsqueezy.com/"
+        to="https://jeffreydev.vercel.app/"
         target="_blank"
         className="text-base leading-[21.6px] tracking-[-0.48px] be-vietnam-pro-medium text-[#854dff] border border-[#854dff] bg-transparent rounded-lg px-[18px] py-2.5 md:flex items-center justify-center min-w-max"
       >
