@@ -53,7 +53,7 @@ const Faqs = () => {
           <h3 className="text-[#a3a6ae] text-center md:text-left">
             Still not convinced?
           </h3>
-          <h3 className="text-[#0f1728] mt- [-8px] md:mt-[-0px] text-center md:text-left">
+          <h3 className="text-[#0f1728] mt-[-8px] md:mt-[-0px] text-center md:text-left">
             We've got the answers
           </h3>
         </motion.div>
@@ -73,7 +73,7 @@ const Faqs = () => {
           amount: "some",
           once: true,
         }}
-        className="bg-[#f5f5f5] pl-[20px] pr-[24px] rounded-[20px] w-ful l h-full"
+        className="bg-[#f5f5f5] pl-[20px] pr-[24px] rounded-[20px] w-full h-full"
       >
         <Accordion />
       </motion.div>
@@ -123,7 +123,7 @@ const Faqs = () => {
         }}
         className="flex flex-col xl:flex-row items-center bg-[#bdff1c] w-full sm:w-[622px] h-[749px] rounded-[24px] overflow-hidden md:w-full xl:w-full xl:h-[480px]"
       >
-        <div className="flex flex-col gap-12 items-start w-full px-10 md:pl-16 pt-[60px] pb-[60px] bor der w- [285px]">
+        <div className="flex flex-col gap-12 items-start w-full px-10 md:pl-16 pt-[60px] pb-[60px] border w-[285px]">
           <h1 className="poppins-medium text-[40px] leading-[44px] tracking-[-1px] text-[#0f1728] w-[80%] md:text-[52px] md:leading-[57.2px] md:w-[505px]">
             Start your next adventure with AI-powered planning.
           </h1>
@@ -159,12 +159,9 @@ const Faqs = () => {
         />
       </motion.div>
 
-      <img src={ogImg} alt="" className="w-full opacity-0 absolute bottom-0 -z-10" />    </section>
-  )
+      <img src={ogImg} alt="" className="w-full opacity-0 absolute bottom-0 -z-10" />
+    </section>
   );
 };
 
 export default Faqs;
-
-  )
-}
