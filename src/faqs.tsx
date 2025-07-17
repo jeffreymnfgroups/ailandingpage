@@ -151,6 +151,7 @@ const Faqs = () => {
           <p className="text-[#0f1728] text-center mt-4 be-vietnam-pro-regular text-[14px] leading-[20px]">
             We currently cover 180+ countries with detailed local insights, booking partnerships, and cultural information. New destinations are added monthly.
           </p>
+        </div>
         <img
           src="https://framerusercontent.com/images/xbGd7KjeOkQuVXYhzidyCZ0EUM.jpg?scale-down-to=2048"
           alt=""
