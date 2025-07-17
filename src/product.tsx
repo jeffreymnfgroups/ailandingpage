@@ -33,7 +33,7 @@ const Product = () => {
           className="flex items-center py-2 px-3 bg-[#bdff1c] rounded-[11px]"
         >
           <h4 className="ibm-plex-mono-semibold uppercase text-black text-[12px] leading-[13.2px] text-center tracking-[1.2px]">
-            Features
+            AI Features
           </h4>
         </motion.div>
         <motion.h1
@@ -53,7 +53,7 @@ const Product = () => {
           }}
           className="w-full sm:w-[669px] poppins-medium text-[40px] leading-[44px] tracking-[-2px] md:text-[56px] md:leading-[61.6px] md:tracking-[-2.4px] text-center text-[#0f1728] md:w-full"
         >
-          Unlock your full potential with our cutting-edge features
+          Experience travel planning powered by advanced AI
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -72,9 +72,7 @@ const Product = () => {
           }}
           className="font-normal mt-[9px] text-[18px] leading-[24.3px] text-center tracking-[-0.54px] md:text-[20px] md:leadng-[27px] md:tracking-[-0.6px] text-[#475466] md:w-[765px]"
         >
-          From intuitive task management to advanced data analytics, our
-          software equips you with the tools you need to thrive in today's
-          competitive business landscape.
+          From intelligent destination matching to real-time travel optimization, our AI technology transforms how you discover and experience the world.
         </motion.p>
       </div>
 
@@ -102,11 +100,10 @@ const Product = () => {
             <img src={invest} alt="" className="w-[473px]" />
             <div className="w-full flex flex-col items-start gap-2">
               <h3 className="font-medium text-[25px] leading-[30px] tracking-[-0.5px] text-[#000]">
-                Invest as low as € 100*
+                Plan trips in minutes
               </h3>
               <p className="font-normal leading-[21.6px] text-[18px] tracking-[-0.18px] text-black/50">
-                For anyone to start building their real estate portfolio, no
-                matter the size of your wallet.
+                AI creates complete itineraries instantly based on your preferences, budget, and travel dates.
               </p>
             </div>
           </motion.div>
@@ -136,11 +133,10 @@ const Product = () => {
             />
             <div className="w-full flex flex-col items-start gap-2">
               <h3 className="font-medium text-[25px] leading-[30px] tracking-[-0.5px] text-[#000]">
-                Earn while you sleep
+                Discover hidden gems
               </h3>
               <p className="font-normal leading-[21.6px] text-[18px] tracking-[-0.18px] text-black/50">
-                For anyone to start building their real estate portfolio, no
-                matter the size of your wallet.
+                Access exclusive local experiences and off-the-beaten-path destinations curated by AI and local experts.
               </p>
             </div>
           </motion.div>
@@ -173,11 +169,10 @@ const Product = () => {
             />
             <div className="w-full flex flex-col items-start gap-3">
               <h3 className="font-medium text-[25px] leading-[30px] tracking-[-0.5px] text-[#000] poppins-medium">
-                Sell at your wish
+                Real-time optimization
               </h3>
               <p className="font-normal leading-[21.6px] text-[18px] tracking-[-0.18px] text-black/50 xl:w-[315px]">
-                For anyone to start building their real estate portfolio, no
-                matter the size of your wallet.
+                AI monitors prices, weather, and local events to suggest optimal timing and alternatives for your trip.
               </p>
             </div>
           </motion.div>
@@ -209,11 +204,10 @@ const Product = () => {
               />
               <div className="w-full flex flex-col items-start gap-3">
                 <h3 className="font-medium text-[25px] leading-[30px] tracking-[-0.5px] text-[#000] poppins-medium">
-                  Secure and reliable
+                  Smart budget tracking
                 </h3>
                 <p className="font-normal leading-[21.6px] text-[18px] tracking-[-0.18px] text-black/50">
-                  For anyone to start building their real estate portfolio, no
-                  matter the size of your wallet.
+                  Track expenses in real-time with AI-powered spending insights and budget optimization recommendations.
                 </p>
               </div>
             </div>
@@ -244,11 +238,10 @@ const Product = () => {
               />
               <div className="w-full flex flex-col items-start gap-3">
                 <h3 className="font-medium text-[25px] leading-[30px] tracking-[-0.5px] text-[#000] poppins-medium">
-                  100% integrated
+                  Offline accessibility
                 </h3>
                 <p className="font-normal leading-[21.6px] text-[18px] tracking-[-0.18px] text-black/50">
-                  For anyone to start building their real estate portfolio, no
-                  matter the size of your wallet.
+                  Access your complete itinerary, maps, and bookings offline with automatic sync when connected.
                 </p>
               </div>
             </motion.div>
@@ -274,7 +267,7 @@ const Product = () => {
           }}
           className="poppins-medium text-[33px] leading-[36.3px] tracking-[-1px] text-[#0f1728] md:text-[46px] md:leading-[50.6px] md:tracking-[-1.5px]"
         >
-          And more is coming
+          More AI features coming
         </motion.h2>
 
         <div className="w-full flex flex-col md:flex-col gap-5 items-center">
@@ -301,10 +294,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  AI-powered editor
+                  Voice trip planning
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
-                  Assign tasks, set priorities, and track progress effortlessly
+                  Plan your entire trip using natural voice commands and conversational AI assistance
                 </p>
               </div>
             </motion.div>
@@ -330,10 +323,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  Tools integrations
+                  Travel companion matching
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
-                  Visualize trends and monitor key performances
+                  Connect with like-minded travelers and find perfect travel companions for your adventures
                 </p>
               </div>
             </motion.div>
@@ -359,10 +352,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  Data analytics
+                  Predictive travel insights
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50 text-center md:text-left">
-                  Customize workflows, add integrations, and adapt features
+                  AI predicts crowd levels, weather patterns, and optimal travel times for better experiences
                 </p>
               </div>
             </motion.div>
@@ -391,10 +384,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  Intuitive Task Management
+                  Smart packing assistant
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
-                  Assign tasks, set priorities, and track progress effortlessly
+                  AI-generated packing lists based on destination, weather, and planned activities
                 </p>
               </div>
             </motion.div>
@@ -420,10 +413,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  Advanced Data Analytics
+                  Cultural insights engine
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
-                  Visualize trends and monitor key performances
+                  Learn local customs, etiquette, and cultural tips powered by AI and local knowledge
                 </p>
               </div>
             </motion.div>
@@ -449,10 +442,10 @@ const Product = () => {
               <img src={fingerprintTwo} alt="" className="w-[96px]" />
               <div className="w-full flex flex-col items-center md:items-start gap-1 md:gap-2">
                 <h3 className="font-medium text-[24px] leading-[28.8px] tracking-[-1px] text-[#0f1728]">
-                  Scalability and Customization
+                  Emergency travel support
                 </h3>
                 <p className="font-normal leading-[24.3px] text-[18px] tracking-[-0.36px] text-black/50">
-                  Customize workflows, add integrations, and adapt features
+                  24/7 AI-powered assistance for travel emergencies, rebooking, and real-time support
                 </p>
               </div>
             </motion.div>

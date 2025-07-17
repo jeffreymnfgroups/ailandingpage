@@ -32,17 +32,15 @@ const TestimonialCarouselDesktop = () => {
 
           <div className="flex flex-col items-start justify-between w-full gap-6">
             <h4 className="text-[32px] leading-[38.4px] tracking-[-1px] text-[#050505] w-full poppins-medium">
-              "We struggled to find the right talent globally, but with their
-              automated candidate ranking, we quickly identified top-notch
-              candidates who perfectly fit our requirements."
+              "This app completely transformed how I travel. The AI found hidden gems in Tokyo I never would have discovered, and the itinerary was perfectly timed. Best travel companion ever!"
             </h4>
 
             <div className="flex flex-col gap-1">
               <h5 className="text-[18px] leading-[28px] text-[#0f1728] font-semibold">
-                Sarah Johnson
+                Emma Rodriguez
               </h5>
               <p className="leading-[24px] text-[#475466]">
-                Small Business Owner, Sarah's Boutique
+                Travel Blogger & Digital Nomad
               </p>
             </div>
           </div>
@@ -63,17 +61,15 @@ const TestimonialCarouselDesktop = () => {
 
           <div className="flex flex-col items-start justify-between w-full gap-6">
             <h4 className="text-[32px] leading-[38.4px] tracking-[-1px] text-[#050505] w-full poppins-medium">
-              "As a fast-growing startup, we needed an efficient way to find
-              skilled professionals from various regions. This AI tool exceeded
-              our expectations."
+              "Planning our family vacation used to take weeks. Now it takes minutes! The AI understood our budget and kids' ages perfectly. Our Iceland trip was flawless from start to finish."
             </h4>
 
             <div className="flex flex-col gap-1">
               <h5 className="text-[18px] leading-[28px] text-[#0f1728] font-semibold">
-                Luke Skywalker
+                Michael Chen
               </h5>
               <p className="leading-[24px] text-[#475466]">
-                Digital Manager @ ABC Inc.
+                Father of Two & Adventure Seeker
               </p>
             </div>
           </div>
@@ -94,16 +90,15 @@ const TestimonialCarouselDesktop = () => {
 
           <div className="flex flex-col items-start justify-between w-full gap-6">
             <h4 className="text-[32px] leading-[38.4px] tracking-[-1px] text-[#050505] w-full poppins-medium">
-              "The platform's emphasis on diversity and inclusion impressed me,
-              helping us create a more inclusive workforce."
+              "As a business traveler, I need efficiency. The AI learns my preferences and books everything seamlessly. I've saved hours of planning time and discovered amazing local restaurants."
             </h4>
 
             <div className="flex flex-col gap-1">
               <h5 className="text-[18px] leading-[28px] text-[#0f1728] font-semibold">
-                Majin Bu
+                Sarah Williams
               </h5>
               <p className="leading-[24px] text-[#475466]">
-                HR Manager @ Foster Partners
+                Executive Consultant & Frequent Flyer
               </p>
             </div>
           </div>

@@ -25,7 +25,7 @@ const Benefits = () => {
           }}
           className="w-full sm:w-[669px] poppins-medium text-[50px] leading-[60px] tracking-[-2px] md:text-[56px] md:leading-[67.2px] text-center text-[#0f1728]"
         >
-          Good-bye to traditional startup hassle.
+          Say goodbye to travel planning stress.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -44,8 +44,7 @@ const Benefits = () => {
           }}
           className="font-normal text-[18px] leading-[24.3px] text-center tracking-[-0.54px] md:text-[20px] md:leadng-[27px] md:tracking-[-0.6px] text-[#475466]"
         >
-          Say farewell to the complexities of the past and unlock a smoother
-          path to success. Welcome to a new era of simplicity and efficiency.
+          Experience the future of travel planning with AI that learns your preferences, suggests hidden gems, and creates perfect itineraries tailored just for you.
         </motion.p>
       </div>
 
@@ -72,11 +71,10 @@ const Benefits = () => {
           <img src={fingerprint} alt="" className="w-16 h-16" />
           <div className="w-full flex flex-col items-start gap-2">
             <h3 className="font-medium text-[26px] leading-[31.2px] tracking-[-1px] text-[#0f1728]">
-              Optimize your daily operations
+              Smart destination discovery
             </h3>
             <p className="font-normal leading-[21.6px] text-base tracking-[-0.32px] text-black/50">
-              Our software simplifies complex business processes, helping you
-              efficiently manage tasks, projects, and resources.
+              AI analyzes your preferences, budget, and travel style to recommend perfect destinations you never knew existed.
             </p>
           </div>
         </motion.div>
@@ -102,12 +100,10 @@ const Benefits = () => {
           <img src={fingerprint} alt="" className="w-16 h-16" />
           <div className="w-full flex flex-col items-start gap-2">
             <h3 className="font-medium text-[26px] leading-[31.2px] tracking-[-1px] text-[#0f1728]">
-              Make informed business decision
+              Personalized itinerary creation
             </h3>
             <p className="font-normal leading-[21.6px] text-base tracking-[-0.32px] text-black/50">
-              Our software provides comprehensive analytics, empowering you to
-              identify trends, track performance, and adjust your strategies for
-              success.{" "}
+              Create detailed day-by-day plans with restaurant recommendations, activity bookings, and local experiences tailored to your interests.
             </p>
           </div>
         </motion.div>
@@ -133,11 +129,10 @@ const Benefits = () => {
           <img src={fingerprint} alt="" className="w-16 h-16" />
           <div className="w-full flex flex-col items-start gap-2">
             <h3 className="font-medium text-[26px] leading-[31.2px] tracking-[-1px] text-[#0f1728]">
-              Scale your startup with confidence
+              Seamless booking integration
             </h3>
             <p className="font-normal leading-[21.6px] text-base tracking-[-0.32px] text-black/50">
-              Our software is designed to grow alongside your business, adapting
-              to your evolving needs. Scale your startup with confidence.{" "}
+              Book flights, hotels, and activities directly through the app with exclusive deals and real-time price monitoring.
             </p>
           </div>
         </motion.div>

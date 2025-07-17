@@ -45,7 +45,7 @@ const Navbar = () => {
         <img src={logo} alt="Propellent Logo" className="w-[50px] h-[50px]" />
 
         <h2 className="text-[22px] leading-[24.2px] tracking-[-0.6px] poppins-medium md:hidden lg:block" >
-          Propellent
+          TravelAI
         </h2>
       </Link>
 
@@ -55,21 +55,21 @@ const Navbar = () => {
           onClick={handleScroll}
           className="text-[16px] leading-[21.6px] tracking-[-0.32px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
         >
-          Benefits
+          Features
         </Link>
         <Link
           to="#product"
           onClick={handleScroll}
           className="text-[16px] leading-[21.6px] tracking-[-0.32px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
         >
-          Product
+          How it Works
         </Link>
         <Link
           to="#testimonials"
           onClick={handleScroll}
           className="text-[16px] leading-[21.6px] tracking-[-0.32px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
         >
-          Testimonials
+          Reviews
         </Link>
         <Link
           to="#faqs"
@@ -85,7 +85,7 @@ const Navbar = () => {
         target="_blank"
         className="text-base hidden leading-[21.6px] tracking-[-0.48px] be-vietnam-pro-medium text-[#854dff] border border-[#854dff] bg-transparent rounded-lg px-[18px] py-2.5 md:flex items-center justify-center max-w-max"
       >
-        Get Template
+        Download App
       </Link>
 
       {navbarVisible ? (
@@ -147,21 +147,21 @@ const Navbar = () => {
             onClick={handleScroll}
             className="text-[20px] leading-[27px] tracking-[-0.4px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
           >
-            Benefits
+            Features
           </Link>
           <Link
             to="#product"
             onClick={handleScroll}
             className="text-[20px] leading-[27px] tracking-[-0.4px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
           >
-            Product
+            How it Works
           </Link>
           <Link
             to="#testimonials"
             onClick={handleScroll}
             className="text-[20px] leading-[27px] tracking-[-0.4px] font-medium text-[#000] cursor-pointer hover:text-[#878787] transition-all"
           >
-            Testimonials
+            Reviews
           </Link>
           <Link
             to="#faqs"
@@ -178,7 +178,7 @@ const Navbar = () => {
             navbarVisible ? "open-nav-items" : "close-nav-items"
           } border border-[#854dff] bg-transparent rounded-lg px-[18px] py-[14px] flex items-center justify-center w-full`}
         >
-          Get Template
+          Download App
         </Link>
       </div>
     </motion.nav>

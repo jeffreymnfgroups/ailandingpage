@@ -34,11 +34,10 @@ const Form = () => {
     >
       <div className="flex flex-col gap-3 w-full items-center justify-center xl:w-[392px]">
         <h3 className="be-vietnam-pro-medium text-[26px] leading-[31.2px] tracking-[-1px] text-center text-[#0f1728]">
-          Secure your spot now
+          Download the app today
         </h3>
         <p className="be-vietnam-pro-regular text-[16px] leading-[21.6px] tracking-[-0.32px] text-center text-[#475466]">
-          Be the first to know when the product launches and other not-to-miss
-          updates.
+          Join thousands of travelers who plan smarter trips with AI assistance and personalized recommendations.
         </p>
       </div>
 
@@ -59,12 +58,12 @@ const Form = () => {
           <input
             type="text"
             className="bg-[#ebebeb] text-[#757575] leading-[22.4px] text-[16px] block w-full p-[15px] rounded-lg focus:outline-none placeholder:text-[#757575]"
-            placeholder="Your name"
+            placeholder="Your email"
           />
           <input
             type="text"
             className="bg-[#ebebeb] text-[#757575] leading-[22.4px] text-[16px] block w-full p-[15px] rounded-lg focus:outline-none placeholder:text-[#757575]"
-            placeholder="Your email"
+            placeholder="Preferred destination"
           />
 
           <button
@@ -73,15 +72,15 @@ const Form = () => {
             className="text-base leading-[22.4px] text-center  font-medium text-white bg-[#854dfc] rounded-lg p-[15px] hover:bg-[#9D71FD] w-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-orange-500"
             onClick={() => setSubmitted(true)}
           >
-            Join the waitlist
+            Start Planning
           </button>
         </form>
       )}
 
       <p className="be-vietnam-pro-regular text-[14px] leading-[16.8px] tracking-[-0.28px] text-center text-[#9ca3bd] md:w-[392px]">
-        By subscribing, you agree with our
+        By downloading, you agree with our
         <span className="text-[#343b55] underline ml-1 cursor-pointer">
-          Terms of License
+          Privacy Policy
         </span>
       </p>
     </motion.div>

@@ -30,7 +30,7 @@ const Hero = () => {
           >
             <div className="rounded-full flex items-center justify-center absolute md:left-[6px] left-[40%] ri ght-0 max-w-min mx-auto group-hover:left-[6px] group-hover:rig ht-auto duration-300 transition-all z-30 bg-[#bdff1c] py-1 px-2.5">
               <h4 className="be-vietnam-pro-semibold leading-[21.6px] text-base text-black tracking-[-0.32px]">
-                Updates
+                New Feature
               </h4>
             </div>
 
@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
 
             <h4 className="text-[14px] leading-[15.4px] tracking-[-0.14px] font-semibold text-transparent  group-hover:text-black transition-all z-40 be-vietnam-pro-medium duration-300">
-              We secured 3M Series B round
+              AI-powered trip planning now live
             </h4>
 
             <img
@@ -65,7 +65,7 @@ const Hero = () => {
             }}
             className="text-[45px] leading-[47.25px] md:text-[72px] md:leading-[75.6px] tracking-[-2px] md:tracking-[-3px] poppins-medium text-center md:text-left md:w-[610px] z-20"
           >
-            Ease your mind on business operations.
+            Your AI travel companion for perfect trips.
           </motion.h1>
 
           <motion.img
@@ -107,9 +107,7 @@ const Hero = () => {
             }}
             className="be-vietnam-pro-medium text-[#475466] text-[18px] leading-[24.3px] tracking-[-0.54px] md:text-[20px] md:leading-[27px] md:tracking-[-0.6px] text-center md:text-left w-full md:w-[480px]"
           >
-            From intuitive task management to advanced data analytics, our
-            software equips you with the tools you need to thrive in today's
-            competitive business landscape.
+            Discover personalized destinations, create seamless itineraries, and book everything in one place. Let AI handle the planning while you focus on the adventure.
           </motion.p>
 
           <motion.div

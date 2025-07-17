@@ -26,7 +26,7 @@ const StartupCarousel = () => {
       className="w-full flex flex-col items-center justify-center gap-4 absolute bottom-[10px] md:bottom-[50px] px-[20px] sm:px-[60px] hid den"
     >
       <h4 className="text-[20px] text-[#68708c] leading-[27px] tracking-[-0.5px]">
-        Join other tech leaders:
+        Trusted by travelers worldwide:
       </h4>
 
       <div className="relative w-full h-[100px]">

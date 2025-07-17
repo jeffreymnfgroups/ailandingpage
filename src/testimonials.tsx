@@ -31,7 +31,7 @@ const Testimonials = () => {
             className="flex items-center py-2 px-3 bg-[#bdff1c] rounded-[11px]"
           >
             <h4 className="ibm-plex-mono-semibold uppercase text-black text-[12px] leading-[13.2px] text-center tracking-[1.2px]">
-              Metrics
+              Reviews
             </h4>
           </motion.div>
           <motion.h1
@@ -51,7 +51,7 @@ const Testimonials = () => {
             }}
             className="w-full sm:w-[669px] poppins-medium text-[40px] leading-[48px] tracking-[-1.2px] md:text-[44px] md:leading-[52.8px] text-center text-[#0f1728] md:w-full"
           >
-            You can bet on it
+            Travelers love our AI
           </motion.h1>
         </div>
 
@@ -76,7 +76,7 @@ const Testimonials = () => {
               }}
               className="text-[#854dff] font-medium text-[48px] leading-[48px] md:text-[62px] xl:text-[80px] md:font-semi bold md:leading-[80px] tracking-[-3px]"
             >
-              75%
+              4.9★
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const Testimonials = () => {
               }}
               className="text-[18px] leading-[24.3px] md:text-[20px] text-center md:leading-[27px] tracking-[-0.5px]"
             >
-              Candidate match rate
+              App Store rating
             </motion.p>
           </div>
           <div className="flex flex-col gap-3 items-center w-full md:w-1/3 xl:w-[445px] md:border-r border-[#B9BED1] md:pr-2.5 xl:pr-0">
@@ -120,7 +120,7 @@ const Testimonials = () => {
               }}
               className="text-[#854dff] font-medium text-[48px] leading-[48px] md:text-[62px] xl:text-[80px] md:font-semi bold md:leading-[80px] tracking-[-3px]"
             >
-              4,000+
+              500K+
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -141,7 +141,7 @@ const Testimonials = () => {
               }}
               className="text-[18px] leading-[24.3px] md:text-[20px] text-center md:leading-[27px] tracking-[-0.5px]"
             >
-              Successful placement
+              Trips planned
             </motion.p>
           </div>
           <div className="flex flex-col gap-3 items-center w-full md:w-1/3 xl:w-[445px] md:pr-2.5 xl:pr-0">
@@ -164,7 +164,7 @@ const Testimonials = () => {
               }}
               className="text-[#854dff] font-medium text-[48px] leading-[48px] md:text-[62px] xl:text-[80px] md:font-semi bold md:leading-[80px] tracking-[-3px]"
             >
-              50+
+              180+
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -185,7 +185,7 @@ const Testimonials = () => {
               }}
               className="text-[18px] leading-[24.3px] md:text-[20px] text-center md:leading-[27px] tracking-[-0.5px]"
             >
-              Operating countries
+              Countries covered
             </motion.p>
           </div>
         </div>
@@ -212,9 +212,9 @@ const Testimonials = () => {
           }}
           className="text-[40px] leading-[42px] tracking-[-1.6px] md:text-[56px] md:leading-[56px] md:tracking-[-2px] flex flex-col items-center w-full poppins-medium relative"
         >
-          <h3 className="text-[#a3a6ae]">Real stories.</h3>
-          <h3 className="text-[#0f1728] mt- [-8px] md:mt-[-0px] text-center md:text-left">
-            Don’t take our word for it.
+          <h3 className="text-[#a3a6ae]">Real travelers.</h3>
+          <h3 className="text-[#0f1728] mt-[-8px] md:mt-[-0px] text-center md:text-left">
+            Real adventures.
           </h3>
 
           <motion.img
@@ -265,7 +265,7 @@ const Testimonials = () => {
           }}
           className="text-base mt-[-20px] leading-[21.6px] tracking-[-0.48px] be-vietnam-pro-medium text-[#854dff] border border-[#854dff] bg-transparent rounded-full px-[18px] py-[14px] md:px-5 flex items-center justify-center w-full md:max-w-max"
         >
-          Read all stories
+          Read all reviews
         </motion.button>
       </Link>
 

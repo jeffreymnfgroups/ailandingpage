@@ -8,23 +8,23 @@ const Footer = () => {
         <img src={logo} alt="Propellent Logo" className="w-[50px] h-[50px]" />
 
         <h2 className="text-[22px] leading-[24.2px] tracking-[-0.6px] poppins-medium">
-          Propellent
+          TravelAI
         </h2>
       </Link>
 
       <div className="w-full text-center sm:flex items-center justify-center gap-[5px] be-vietnam-pro-regular md:text-[14px] md:leading-[18.9px] md:tracking-[-0.28px] text-[16px] leading-[23.2px] tracking-[-0.32px]">
         <p>
-          Design by
+          Original design by
           <a
             href="https://twitter.com/AndreaMontini"
             target="_blank"
             className="underline text-[#878787] hover:text-black hover:no-underline transition-all cursor-pointer duration-300 ml-[5px]"
           >
-            Adrea Montinni
+            Andrea Montini
           </a>
         </p>
         <p>
-          | Development by
+          | Adapted for TravelAI by
           <a
             href="https://www.victorwilliams.me"
             target="_blank"
@@ -41,7 +41,7 @@ const Footer = () => {
         target="_blank"
         className="text-base leading-[21.6px] tracking-[-0.48px] be-vietnam-pro-medium text-[#854dff] border border-[#854dff] bg-transparent rounded-lg px-[18px] py-2.5 md:flex items-center justify-center min-w-max"
       >
-        Get Template
+        Download App
       </Link>
     </footer>
   );
